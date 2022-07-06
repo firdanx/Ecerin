@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "534359347109",
+    "project_id": "ecerin-ec5e8",
+    "storage_bucket": "ecerin-ec5e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534359347109:android:e13658a0b71a9514b7224c",
+        "android_client_info": {
+          "package_name": "com.example.ecerin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534359347109-sdtkbo307aslqv3usk7gnv4oobgr57f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9jwK9OnZbrhyAeSvCK0uin14MtgOnQZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534359347109-sdtkbo307aslqv3usk7gnv4oobgr57f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

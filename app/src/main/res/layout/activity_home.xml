@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:background="#232323"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingEnd="260dp"
+                android:text="@string/app_name"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:textColor="#FFF40F"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:background="#03FFFFFF"
+                android:src="@drawable/ic_baseline_person_24" />
+
+            <ImageButton
+                android:id="@+id/txtlogout"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:src="@drawable/ic_baseline_login_24"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
